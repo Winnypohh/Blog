@@ -34,6 +34,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['horrorblog.herokuapp.com', 'localhost']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-blog-asemeq848qq.ws-eu78.gitpod.io', 'https://*.127.0.0.1']
 
 # Application definition
 
@@ -101,20 +102,16 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.\
-            UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.\
-            MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.\
-            CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.\
-            NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
 
@@ -144,7 +141,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
-
-CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com','https://*.127.0.0.1']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

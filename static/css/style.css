@@ -1,5 +1,8 @@
 body {
-    background-color: #F9FAFC;
+    background-image: url('fire-23.gif');
+    background-repeat: no-repeat;
+    background-color: #445261;
+    background-size: cover;
 }
 
 .red-Horror {

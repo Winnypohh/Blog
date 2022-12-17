@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['horrorblog.herokuapp.com', 'localhost']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-blog-asemeq848qq.ws-eu79.gitpod.io', 'https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-blog-asemeq848qq.ws-eu79.gitpod.io', 'https://*.127.0.0.1', 'https://winnypohh.github.io/Elm-Street/']
 
 # Application definition
 

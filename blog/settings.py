@@ -118,9 +118,6 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL")),
-    'TEST': {
-            'NAME': 'test_myblog',
-        }
 }
 
 

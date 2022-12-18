@@ -14,8 +14,8 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top"
-                                    src="https://github.com/Winnypohh/Blog/blob/master/media/scary-man%20(2).jpg">
+                                <img class="card-img-top"  width=" 640" height="360"
+                                    src="https://github.com/Winnypohh/Blog/blob/master/media/scary-man%20(2).jpg" alt="">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}

@@ -71,6 +71,20 @@ or make likes and see all comments.
 
 **  **
 
+# Heroku
+
+<a href="https://horrorblog.herokuapp.com/" target="_blank"><h1> Horror|Blog !! </h1></a> 
+
+Deploy made to Heroku and app works and is ready to explore.
+
+** **
+
+# Gitpod 
+
+First you need to run command ` python3 manage.py runserver ` on your terminal and then you can click on link bellow.
+
+<a href="https://8000-winnypohh-blog-asemeq848qq.ws-eu79.gitpod.io/" target="_blank"><h1>Git pod Local Host</h1></a>
+
 # TESTING
 
 ` W3C CSS Validator: `
@@ -79,5 +93,5 @@ or make likes and see all comments.
 
 ` Lighthouse test: `
 
-<img src="" alt="">
+<img src="/workspace/Blog/media/Lighthouse.PNG" alt="">
 
